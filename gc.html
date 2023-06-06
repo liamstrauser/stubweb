@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>grade calculator</title>
+    <link  rel="stylesheet" type = "text/css" href="gc.css"/>
+</head>
+
+<body>
+    <div>
+        <h1 id = "gcheading">grade calculator</h1>
+    </div>
+    <div>
+        <p id = "gcexpl">use grade calculator to calculate your grades and its letter according to a weighting or point system!</p>
+    </div>
+    
+    <div class = "gradetypes">
+        <label>select grade type</label>
+        <div class = "gradetype">
+            
+        </div>
+    </div>
+
+    <div class = "button">
+        <button id = "add weight" onclick = "addWeight()"></button>
+        <button id = "add points" onclick = "addPoint()"></button>
+        <button id = "create more rows!" onclick = "addRows()"></button>
+        <button id = "clear all" onclick = "clearAll()"></button>
+        <button id = "calculate" onclick = "calculate()"></button>
+    </div>
+    
+</body>
+
+<script> src = "gc.js"</script>
+
+</html>
