@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>to-do list</title>
     <link  rel="stylesheet" type = "text/css" href="todo.css"/>
 </head>
 <body>
 
-<div id="myDIV" class="header">
-  <h2 style="margin:5px">My To Do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
+  <div>
+    <h1 id="mpheading">to-do list</h1>
+  </div>
+  <div>
+    <p id="jspp"></p>
+  </div>
+
+  <div class = "container">
+  <div id = "newtask">
+    <input type = "text" placeholder="add tasks">
+    <button id="push">Add</button>
+  </div>
+  <div id = "tasks"></div>
 </div>
 
 
