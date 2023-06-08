@@ -1,7 +1,21 @@
 
 body{
     height: 100vh;
-    background: #066acd;
+    background: rgb(48,164,116);
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .container{
