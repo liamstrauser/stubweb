@@ -1,7 +1,9 @@
 
 body{
-    height: 100vh;
+    position: center;
+    height: 100px;
     background: rgb(48,164,116);
+    overflow-y: scroll;
 }
 
 h1 {
@@ -22,22 +24,24 @@ p {
     width: 40%;
     top: 50%;
     left: 50%;
-    background: white;
     border-radius: 10px;
     min-width: 450px;
     position: absolute;
-    min-height: 100px;
-    transform: translate(-50%,-50%);
+    min-height: 800px;
+    max-height: 801px;
+    transform: translate(-50%,-25%);
 }
+
 #newtask{
     position: relative;
+    display: flex;
     padding: 30px 20px;
 }
 #newtask input{
     width: 75%;
     height: 45px;
     padding: 12px;
-    color: #111111;
+    color: #000000;
     font-weight: 500;
     position: relative;
     border-radius: 5px;
@@ -48,28 +52,27 @@ p {
 
 #newtask input:focus{
     outline: none;
-    border-color: #0d75ec;
+    border-color: #000000;
 }
 #newtask button{
     position: relative;
     float: right;
     font-weight: 500;
     font-size: 16px;
-    background-color: #0d75ec;
+    background-color: rgb(255, 255, 255);
     border: none;
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     outline: none;
     width: 20%;
-    height: 45px;
     border-radius: 5px;
+    margin-left: 5px;
     font-family: 'Poppins',sans-serif;
 }
 #tasks{
     border-radius: 10px;
     width: 100%;
     position: relative;
-    background-color: #ffffff;
     padding: 30px 20px;
     margin-top: 10px;
 }
@@ -78,9 +81,9 @@ p {
     border-radius: 5px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #939697;
+    border: 1px solid #000000;
     cursor: pointer;
-    background-color: #c5e1e6;
+    background-color: #ffffff;
     height: 50px;
     margin-bottom: 8px;
     padding: 5px 10px;
@@ -92,8 +95,8 @@ p {
     font-weight: 400;
 }
 .task button{
-    background-color: #6583e5;
-    color: #ffffff;
+    background-color: rgb(48,164,116);
+    color: #000000;
     border: none;
     cursor: pointer;
     outline: none;
@@ -101,3 +104,9 @@ p {
     width: 40px;
     border-radius: 5px;
 }
+
+body.scroll{
+    Width: -5px;
+    Height: -10px;
+    overflow-y:scroll;
+  }
