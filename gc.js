@@ -1,5 +1,5 @@
 function addWeight(){
-    null;
+    
 }
 
 function addPoint(){
