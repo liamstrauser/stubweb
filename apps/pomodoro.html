@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>pomodoro timer</title>
+    <link  rel="stylesheet" type = "text/css" href="pomo.css"/>
+</head>
+<body>
+    <style>
+        .background {
+          background-image: url("http://127.0.0.1:5500/assets/backg3.jpg");
+          background-size: cover;
+          width: 10;
+          height: 800px;
+          background-repeat: no-repeat;
+          border: solid 1px white;
+        }
+    </style>   
+    <div class = "home">
+        <button id = "home" onclick="window.location.href='../stubhome.html'">home</button>
+    </div>
+    <div>
+        <h1 id="mpheading">pomodoro timer</h1>
+    </div>
+    <div>
+        <p id="jspp">one of the most effective study methods!</p>
+    </div>
+    </div>
+
+    <div class="background">
+        <div class = "buttonco">
+            <p > <span id='countdown'> </span></p>
+            <p>
+                <button id="yes" onclick="yes()"></button>
+                <button id="no" onclick="no()"></button>
+            </p>
+        </div>
+    </div>
+    
+
+</body>
+
+<script> src="pomo.js"</script>
+
+</html>
