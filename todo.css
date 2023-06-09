@@ -11,6 +11,7 @@ h1 {
     padding: 20px;
     font-size: 60px;
     text-align: center;
+    font-family: 'Jost', sans-serif;
 }
 
 p {
@@ -18,6 +19,7 @@ p {
     padding: 20px;
     font-size: 20px;
     text-align: center;
+    font-family: 'Jost', sans-serif;
 }
 
 .container{
@@ -36,7 +38,9 @@ p {
     position: relative;
     display: flex;
     padding: 30px 20px;
+    color: #000000;
 }
+
 #newtask input{
     width: 75%;
     height: 45px;
@@ -45,7 +49,7 @@ p {
     font-weight: 500;
     position: relative;
     border-radius: 5px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 15px;
     border: 2px solid #d1d3d4;
 }
@@ -53,6 +57,7 @@ p {
 #newtask input:focus{
     outline: none;
     border-color: #000000;
+    color: #000000;
 }
 #newtask button{
     position: relative;
@@ -67,7 +72,7 @@ p {
     width: 20%;
     border-radius: 5px;
     margin-left: 5px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 #tasks{
     border-radius: 10px;
@@ -75,13 +80,14 @@ p {
     position: relative;
     padding: 30px 20px;
     margin-top: 10px;
+    color: #000000;
 }
 
 .task{
     border-radius: 5px;
     align-items: center;
+    color: #000000;
     justify-content: space-between;
-    border: 1px solid #000000;
     cursor: pointer;
     background-color: #ffffff;
     height: 50px;
@@ -90,9 +96,10 @@ p {
     display: flex;
 }
 .task span{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 15px;
     font-weight: 400;
+    color: #000000;
 }
 .task button{
     background-color: rgb(48,164,116);
@@ -110,3 +117,10 @@ body.scroll{
     Height: -10px;
     overflow-y:scroll;
   }
+
+#taskname {
+    color: #000000;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}

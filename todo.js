@@ -1,12 +1,6 @@
-let nums = {};
-
 document.querySelector('#push').onclick = function(){
   if(document.querySelector('#newtask input').value.length == 0){
       alert("please enter a task :)")
-  }
-
-  else if(nums >= 0){
-
   }
 
   else{
