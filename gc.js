@@ -1,11 +1,3 @@
-function addWeight(){
-    
-}
-
-function addPoint(){
-    null;
-}
-
 function addRows(){
     null;
 }
