@@ -1,8 +1,4 @@
-//baaa old stuff
-//countdown
-
-let startingMinutes = prompt("Enter how long you want to work for(in minutes): ");
-let time = startingMinutes * 60;
+let time = 25 * 60;
 
 let countdownEl = document.getElementById('countdown');
 setInterval(updateCountdown, 1000);
