@@ -1,6 +1,26 @@
-.button {
-    font-size:200px;
-    line-height:2;
-    letter-spacing:100px;
+body{
+    height: 100vh;
+    background: rgb(48,164,116);
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 60px;
     text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+table{
+    width: 700px;
+    height: 200px;
+    background: rgb(65, 216, 153);
+    font-size: 20px;
+    border-collapse: collapse;
+    
 }
