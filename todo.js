@@ -27,14 +27,12 @@ document.querySelector('#push').onclick = function(){
 }
 
 
-// Get the input field
 var input = document.querySelector('#newtask input');
 
-// Execute a function when the user presses a key on the keyboard
 input.addEventListener("keypress", function(event) {
-  // If the user presses the "Enter" key on the keyboard
+
   if (event.key === "Enter") {
-    // Cancel the default action, if needed
+
     if(document.querySelector('#newtask input').value.length == 0){
         alert("please enter a task :)")
     }
