@@ -1,7 +1,9 @@
 
 body{
-    height: 100vh;
+    position: center;
+    height: 100px;
     background: rgb(48,164,116);
+    overflow-y: scroll;
 }
 
 h1 {
@@ -9,6 +11,7 @@ h1 {
     padding: 20px;
     font-size: 60px;
     text-align: center;
+    font-family: 'Jost', sans-serif;
 }
 
 p {
@@ -16,88 +19,108 @@ p {
     padding: 20px;
     font-size: 20px;
     text-align: center;
+    font-family: 'Jost', sans-serif;
 }
 
 .container{
     width: 40%;
     top: 50%;
     left: 50%;
-    background: white;
     border-radius: 10px;
     min-width: 450px;
     position: absolute;
-    min-height: 100px;
-    transform: translate(-50%,-50%);
+    min-height: 800px;
+    max-height: 801px;
+    transform: translate(-50%,-25%);
 }
+
 #newtask{
     position: relative;
+    display: flex;
     padding: 30px 20px;
+    color: #000000;
 }
+
 #newtask input{
     width: 75%;
     height: 45px;
     padding: 12px;
-    color: #111111;
+    color: #000000;
     font-weight: 500;
     position: relative;
     border-radius: 5px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 15px;
     border: 2px solid #d1d3d4;
 }
 
 #newtask input:focus{
     outline: none;
-    border-color: #0d75ec;
+    border-color: #000000;
+    color: #000000;
 }
 #newtask button{
     position: relative;
     float: right;
     font-weight: 500;
     font-size: 16px;
-    background-color: #0d75ec;
+    background-color: rgb(255, 255, 255);
     border: none;
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     outline: none;
     width: 20%;
-    height: 45px;
     border-radius: 5px;
-    font-family: 'Poppins',sans-serif;
+    margin-left: 5px;
+    font-family: 'Jost', sans-serif;
 }
 #tasks{
     border-radius: 10px;
     width: 100%;
     position: relative;
-    background-color: #ffffff;
     padding: 30px 20px;
     margin-top: 10px;
+    color: #000000;
 }
 
 .task{
     border-radius: 5px;
     align-items: center;
+    color: #000000;
     justify-content: space-between;
-    border: 1px solid #939697;
     cursor: pointer;
-    background-color: #c5e1e6;
+    background-color: #ffffff;
     height: 50px;
     margin-bottom: 8px;
     padding: 5px 10px;
     display: flex;
 }
 .task span{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 15px;
     font-weight: 400;
+    color: #000000;
 }
 .task button{
-    background-color: #6583e5;
-    color: #ffffff;
+    background-color: rgb(48,164,116);
+    color: #000000;
     border: none;
     cursor: pointer;
     outline: none;
     height: 100%;
     width: 40px;
     border-radius: 5px;
+}
+
+body.scroll{
+    Width: -5px;
+    Height: -10px;
+    overflow-y:scroll;
+  }
+
+#taskname {
+    color: #000000;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
 }

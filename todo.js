@@ -1,9 +1,10 @@
 document.querySelector('#push').onclick = function(){
   if(document.querySelector('#newtask input').value.length == 0){
-      alert("Kindly Enter Task Name!!!!")
+      alert("please enter a task :)")
   }
 
   else{
+    document.getElementById("textplace").value = "";
       document.querySelector('#tasks').innerHTML += `
           <div class="task">
               <span id="taskname">
