@@ -2,8 +2,12 @@ function addRows(){
     var table = document.getElementById("fullTable");
     var row = table.insertRow(-1);
     var assignmentCell = row.insertCell(0);
+    assignmentCell.style.textAlign = 'center';
     var gradeCell = row.insertCell(1);
+    gradeCell.style.textAlign = 'center';
     var weightCell = row.insertCell(2);
+    weightCell.style.textAlign = 'center';
+
     
     assignmentCell.innerHTML = '<input type="text" class="assignment" />';
     gradeCell.innerHTML = '<input type="number" class="grade" />';
