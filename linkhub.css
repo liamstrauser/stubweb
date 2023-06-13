@@ -69,10 +69,59 @@ li.bold{
 
 }
 
-img {
+.allbtn img {
     display: block;
-    width: 400px;
-    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    margin: 5px auto;
+    align-items: center;
+    border-color: white;
+    border-radius: 10px;
 
 
+}
+
+.button-container-div1 {
+    text-align: center;
+}
+
+.button-container-div1 button{
+    text-align: center;
+    padding: 30px;
+    border: 10px;
+    border-color: white;
+    background-size: 1px;
+    background: none;
+    cursor: pointer;
+}
+
+.button-container-div2 {
+    text-align: center;
+}
+
+.button-container-div2 button{
+    text-align: center;
+    cursor: pointer;
+    padding: 30px;
+    border: 10px;
+    border-color: white;
+    background-size: 1px;
+    background: none;
+}
+
+.home button{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    height: auto;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.home img {
+    width: 100px;
+    height: 100px;
 }
