@@ -105,20 +105,19 @@ p {
 }
 
 .task button{
-    background-color: rgb(48,164,116);
     color: #000000;
     border: none;
     cursor: pointer;
     outline: none;
     height: 100%;
-    width: 40px;
+    width: 50px;
     border-radius: 5px;
+    border-color: #ffffff;
 }
 
 body.scroll{
     Width: -5px;
     Height: -10px;
-    overflow-y:scroll;
   }
 
 
