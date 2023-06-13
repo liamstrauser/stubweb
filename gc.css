@@ -1,6 +1,7 @@
 body{
     height: 100vh;
     background: rgb(48,164,116);
+    overflow-y: scroll;
 }
 
 h1 {
@@ -18,9 +19,40 @@ p {
 }
 table{
     width: 700px;
-    height: 800px;
-    background: rgb(65, 216, 153);
+    height: 200px;
+    background: #ffffff;
     font-size: 20px;
-    border-collapse: collapse;
+    border-radius: 10px;
+    border-color: white;
+
 }
 
+.home button{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    height: auto;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.home img {
+    width: 100px;
+    height: 100px;
+}
+
+#fullTable {
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+#gradeinputs {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 10px;
+}

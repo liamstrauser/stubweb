@@ -9,7 +9,7 @@
 
 <body>
     <div class = "home">
-        <button id = "home" onclick="window.location.href='../stubhome.html'">home</button>
+        <button id = "home" onclick="window.location.href='../stubhome.html'"><img src = "graphics/thestublogo.png"></button>
     </div>
     
     <div>
@@ -27,28 +27,34 @@
         <span class = "calculate" align = "center">
             <button id = "calculate!" onclick = "calculate()">calculate!</button>
         </span>
+        <span class = "clearAll" align = "center">
+            <button id = "clear all!" onclick = "clearAll()">clear all rows!</button>
+        </span>
     </div>
     
     <!-- <div class = "gradetypes">
         <label>select grade type</label>
-        <div class = "gradetype">
+        <div class = "gradetype">   
         </div>
     </div> -->
     <br>
     <table id = "fullTable" align = "center" >
         <tbody>
-            <tr>
+            <tr id = "options">
                 <td align = "center">Assignment(Optional)</td>
                 <td align = "center">Grade (%)</td>
                 <td align = "center">Weight (%)</td>
             </tr>
-            <tr>
-                <td align = "center"><input type="text" class = "assignment" placeholder="e.g Assignment" autofocus=""></td>
-                <td align = "center"><input type = "number" class = "grade"</td>
-                <td align = "center"><input type = "number" class = "weight"</td>
+            <tr id = "gradeinputs">
+                <td align = "center"><input type="text" class = "assignment" placeholder="e.g Assignment" ></td>
+                <td align = "center" ><input type = "number" class = "grade" ></td>
+                <td align = "center"><input type = "number" class = "weight" ></td>
             </tr>
         </tbody>
     </table>
+    <div>
+        <p id = "finalanswer"></p>
+    </div>
 
     <!-- <div class = "button">
         <button id = "add weight" onclick = "addWeight()"></button>

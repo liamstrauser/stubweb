@@ -23,7 +23,7 @@ p {
 
 .container{
     width: 40%;
-    top: 50%;
+    top: 70%;
     left: 50%;
     border-radius: 10px;
     min-width: 450px;
@@ -126,4 +126,21 @@ body.scroll{
     font-family: 'Jost', sans-serif;
     font-size: 15px;
     font-weight: 400;
+}
+
+.home button{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    height: auto;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.home img {
+    width: 100px;
+    height: 100px;
 }

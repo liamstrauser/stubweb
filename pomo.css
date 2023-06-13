@@ -99,3 +99,21 @@ img {
 
 
 }
+
+.home button{
+    align-items: left;
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    height: auto;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.home img {
+    width: 100px;
+    height: 100px;
+}
