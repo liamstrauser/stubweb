@@ -16,6 +16,7 @@ body{
     margin: 0 auto;
     border: 8px solid rgb(255, 255, 255);
     padding: 0 20px 20px 20px
+    
 
 
 }
@@ -25,6 +26,7 @@ h1 {
     padding: 20px;
     font-size: 60px;
     text-align: center;
+    font-family: 'Jost', sans-serif;
 }
 
 p {
@@ -32,6 +34,7 @@ p {
     line-height:2;
     letter-spacing:3px;
     text-align: center;
+    font-family: 'Jost', sans-serif;
 }
 
 li {
@@ -77,8 +80,7 @@ li.bold{
     align-items: center;
     border-color: white;
     border-radius: 10px;
-
-
+    border: 10px;
 }
 
 .button-container-div1 {
@@ -109,19 +111,3 @@ li.bold{
     background: none;
 }
 
-.home button{
-    text-align: left;
-    width: 100px;
-    height: 100px;
-    height: auto;
-    padding: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
-
-}
-
-.home img {
-    width: 100px;
-    height: 100px;
-}
