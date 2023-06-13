@@ -20,27 +20,26 @@ function clearAll(){
         m.deleteRow(i);
     }
     m.rows[1].cells[0].innerHTML = '<input type="text" class="assignment" />';
+    document.getElementById("finalanswer").innerHTML = "";
 
 }
 
 function calculate(){
     let grades = document.getElementsByClassName("grade");
     let weights = document.getElementsByClassName("weight");
-    let totalGrades = 0;
-    let totalWeight = 0;
     let currentGrade = 0;
     let currentWeight = 0;
     let total = 0;
     let products = 0;
     let weightTotal = 0;
-    for (let i = 0; i<grades.length();i++){
-        currentGrade = grades[i];
-        currentWeight = weights[i];
-        products += currentGrade * (currentWeight)/100;
-        weightTotal += weight/100;
+    for (let i = 0; i < grades.length; i++) {
+        currentGrade = parseFloat(grades[i].value);
+        currentWeight = parseFloat(weights[i].value);
+        products += currentGrade * currentWeight;
+        weightTotal += currentWeight;
     }
     total = products/weightTotal;
-    document.getElementById("finalanswer").innerHTML = total;
+    document.getElementById("finalanswer").innerHTML = total.toString()+ "%";
     
 
 }
