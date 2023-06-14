@@ -41,11 +41,22 @@ function calculate(){
     for (let i = 0; i < grades.length; i++) {
         currentGrade = parseFloat(grades[i].value);
         currentWeight = parseFloat(weights[i].value);
-        products += currentGrade * currentWeight;
-        weightTotal += currentWeight;
+        console.log(currentGrade);
+        console.log(typeof currentWeight!=='undefined');
+        if(isNaN(parseFloat(currentGrade)) && isNaN(parseFloat(currentWeight))){
+            weightTotal+=0;
+            products+=0;
+        }
+        else{
+            products += currentGrade * currentWeight;
+            weightTotal += currentWeight;
+        }
+        
     }
     total = products/weightTotal;
+    total = total.toFixed(2)
     document.getElementById("finalanswer").innerHTML = total.toString()+ "%";
+    
     
 
 }
