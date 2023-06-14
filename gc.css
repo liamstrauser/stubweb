@@ -31,8 +31,8 @@ p {
 }
 table{
     width: 700px;
-    height: 200px;
-    background: rgb(48,164,116);
+    height: 50x;
+    background: #ffffff;
     font-size: 20px;
     border-radius: 10px;
     border-color: white;
@@ -57,7 +57,7 @@ table{
 }
 
 #fullTable {
-    align-items: center;
+    /* align-items: center; */
     margin: 0 auto;
 
 }
