@@ -9,7 +9,7 @@ function addRows(){
     weightCell.style.textAlign = 'center';
 
     
-    assignmentCell.innerHTML = '<input type="text" class="assignment" />';
+    assignmentCell.innerHTML = '<input type="text" class="assignment" placeholder = "e.g. Assignment"/>';
     gradeCell.innerHTML = '<input type="number" class="grade" />';
     weightCell.innerHTML = '<input type ="number" class ="weight" />';
   
@@ -23,7 +23,7 @@ function clearAll(){
     for (var i = m.rows.length -1; i > 1; i--) {
         m.deleteRow(i);
     }
-    m.rows[1].cells[0].innerHTML = '<input type="text" class="assignment" />';
+    m.rows[1].cells[0].innerHTML = '<input type="text" class="assignment" placeholder = "e.g. Assignment"/>';
     document.getElementById("finalanswer").innerHTML = "";
 
 }
