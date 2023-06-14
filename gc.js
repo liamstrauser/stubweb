@@ -24,6 +24,8 @@ function clearAll(){
         m.deleteRow(i);
     }
     m.rows[1].cells[0].innerHTML = '<input type="text" class="assignment" placeholder = "e.g. Assignment"/>';
+    m.rows[1].cells[1].innerHTML = '<input type="number" class="grade" />';
+    m.rows[1].cells[2].innerHTML = '<input type="number" class="weight" />';
     document.getElementById("finalanswer").innerHTML = "";
 
 }
