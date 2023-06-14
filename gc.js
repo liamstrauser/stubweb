@@ -39,7 +39,9 @@ function calculate(){
     for (let i = 0; i < grades.length; i++) {
         currentGrade = parseFloat(grades[i].value);
         currentWeight = parseFloat(weights[i].value);
-        if(currentWeight==undefined && current==undefined){
+        console.log(currentGrade);
+        console.log(typeof currentWeight!=='undefined');
+        if(isNaN(parseFloat(currentGrade)) && isNaN(parseFloat(currentWeight))){
             weightTotal+=0;
             products+=0;
         }
