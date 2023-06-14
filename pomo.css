@@ -2,7 +2,6 @@
 html{
     background:rgb(0, 0, 0);
     font-family: 'Jost', sans-serif;
-    text-align: center ;
 
 
 }
@@ -50,6 +49,10 @@ img {
     text-align: center
 }
 
+h1 {
+    text-align: center;
+}
+
 p {
     font-size:18px;
     line-height:2;
@@ -61,6 +64,7 @@ li {
     font-size:18px;
     line-height:2;
     letter-spacing:3px;
+    text-align: center;
 }
 
 .button {
@@ -98,4 +102,24 @@ img {
     margin: 0 auto;
 
 
+}
+
+.home button{
+    width: 100px;
+    height: 100px;
+    height: auto;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.home img {
+    width: 100px;
+    height: 100px;
+}
+
+#countdown {
+    font-family: 'Jost', sans-serif;
 }

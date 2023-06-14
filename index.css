@@ -22,16 +22,16 @@ body{
 
 h1 {
     margin: 0;
-    padding: 20px;
     font-size: 60px;
     text-align: center;
 }
 
 p {
-    font-size:18px;
-    line-height:2;
-    letter-spacing:3px;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
     text-align: center;
+    font-family: 'Jost', sans-serif;
 }
 
 li {
@@ -71,7 +71,8 @@ li.bold{
 
 img {
     display: block;
-    width: 400px;
+    width: 500px;
+    height: auto;
     margin: 0 auto;
 
 
