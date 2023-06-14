@@ -1,6 +1,5 @@
 body{
     position: center;
-    height: 100px;
     background: rgb(48,164,116);
     overflow-y: scroll;
 }
