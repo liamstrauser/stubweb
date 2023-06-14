@@ -43,6 +43,7 @@ function calculate(){
         weightTotal += currentWeight;
     }
     total = products/weightTotal;
+    total = total.toFixed(2)
     document.getElementById("finalanswer").innerHTML = total.toString()+ "%";
     
 
