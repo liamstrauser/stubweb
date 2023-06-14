@@ -28,12 +28,13 @@ function updateCountdown() {
 
 // }
  function stopStudy() {
+    time = 5 * 60;
 //     //switch elementbyid countdown to different screen
-       countdownEl.innerHTML = "this session is over! wanna study again?";
-       document.getElementById('yes').style.opacity = 1.0;
-       document.getElementById('no').style.opacity = 1.0;
-       document.getElementById('yes').innerHTML = "yes!";
-       document.getElementById('no').innerHTML = "no thanks :)";
+    //    countdownEl.innerHTML = "this session is over! wanna study again?";
+    //    document.getElementById('yes').style.opacity = 1.0;
+    //    document.getElementById('no').style.opacity = 1.0;
+    //    document.getElementById('yes').innerHTML = "yes!";
+    //    document.getElementById('no').innerHTML = "no thanks :)";
     
 }
 
