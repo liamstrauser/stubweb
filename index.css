@@ -12,11 +12,7 @@ html{
 
 body{
     background:#30a474;
-    width: 1000;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-    justify-content: center;
-    align-items: center;
+    border: 8px solid rgb(255, 255, 255);
 
 }
 
@@ -24,7 +20,13 @@ h1 {
     margin: 0;
     font-size: 60px;
     text-align: center;
+
 }
+
+h1 img {
+    width:375px;
+}
+
 
 p {
     margin: 0;
@@ -95,7 +97,6 @@ img {
 
 footer {
     padding-top: 100px;
-
     width: auto;
 }
 
@@ -111,3 +112,8 @@ footer p {
     text-align: center;
 }
 
+footer button{
+
+    border: 2px white;
+    text-align: center;
+}

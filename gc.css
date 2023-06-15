@@ -10,10 +10,9 @@ html{
 body{
     height: 100vh;
     background: rgb(48,164,116);
-    overflow-y: scroll;
-    margin: 0 auto;
+    background:#30a474;
     border: 8px solid rgb(255, 255, 255);
-    padding: 0 20px 20px 20px
+
 }
 
 h1 {
@@ -32,7 +31,7 @@ p {
 table{
     width: 700px;
     height: 50x;
-    background: rgba(75, 121, 229, 0.708);
+    background:  rgb(48,164,116);
     font-size: 20px;
 
 }
