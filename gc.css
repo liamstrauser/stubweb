@@ -8,10 +8,13 @@ html{
 
 
 body{
-    height: 100vh;
-    background: rgb(48,164,116);
     background:#30a474;
     border: 8px solid rgb(255, 255, 255);
+    width: 1000;
+    height: auto;
+    margin: 0 auto;
+    border: 8px solid rgb(255, 255, 255);
+    padding: 0 20px 20px 20px
 
 }
 
