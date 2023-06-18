@@ -11,13 +11,12 @@ html{
 
 
 body{
-    background:#30a474;
+    background:rgb(48,164,116);
     width: 1000;
-    height: 1000 auto;
+    height: flex;
     margin: 0 auto;
     border: 8px solid rgb(255, 255, 255);
     padding: 0 20px 20px 20px
-
     
 
 
@@ -112,6 +111,21 @@ li.bold{
     background-size: 1px;
     background: none;
 }
+
+.button-container-div3 {
+    text-align: center;
+}
+
+.button-container-div3 button{
+    text-align: center;
+    cursor: pointer;
+    padding: 30px;
+    border: 10px;
+    border-color: white;
+    background-size: 1px;
+    background: none;
+}
+
 
 .home button{
     text-align: left;
