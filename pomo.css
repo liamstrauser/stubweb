@@ -23,9 +23,9 @@ p {
 
 
 img {
-    display: block;
     margin: 0 auto;
     image-rendering: pixelated;
+    z-index: 1;
 }
 
 #countdown {
@@ -36,9 +36,9 @@ img {
     text-align: center;
     width: 500;
     font-family: 'Jost', sans-serif;
-    color: aliceblue;
+    color: black;
     font-size: 40px;
-
+    z-index: -1;
 }
 
 .button {
@@ -131,3 +131,10 @@ img {
 #countdown {
     font-family: 'Jost', sans-serif;
 }
+
+.pbg img{
+    position: absolute;
+    padding-left: 550px;
+    z-index: 1;
+}
+
